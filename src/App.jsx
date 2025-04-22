@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Academics from './components/Academics';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import { useState } from 'react';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [activePage, setActivePage] = useState('about');
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main>
+      <Sidebar />
+      <div className="main-content">
+        <Navbar activePage={activePage} setActivePage={setActivePage} />
+
+        <article className={`about ${activePage === 'about' ? 'active' : ''}`} data-page="about">
+          <About />
+        </article>
+
+        <article className={`academics ${activePage === 'academics' ? 'active' : ''}`} data-page="resume">
+          <Academics />
+        </article>
+
+        <article className={`projects ${activePage === 'projects' ? 'active' : ''}`} data-page="portfolio">
+          <Projects />
+        </article>
+
+        <article className={`contact ${activePage === 'contact' ? 'active' : ''}`} data-page="contact">
+          <Contact />
+        </article>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </main>
+  );
 }
 
-export default App
+export default App;
