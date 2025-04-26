@@ -1,7 +1,7 @@
 // src/components/Sidebar.jsx
 import { useState } from 'react';
 import avatar from '../assets/images/my-image.jpg';
-import { IoMailOutline, IoPhonePortraitOutline, IoCalendarOutline, IoLocationOutline, IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoChevronDown } from 'react-icons/io5';
+import { IoMailOutline, IoPhonePortraitOutline, IoCalendarOutline, IoLocationOutline, IoLogoLinkedin, IoLogoGithub, IoChevronDown } from 'react-icons/io5';
 
 const Sidebar = () => {
     const [expanded, setExpanded] = useState(false);
@@ -46,16 +46,16 @@ const Sidebar = () => {
                         <div className="icon-box"><IoMailOutline /></div>
                         <div className="contact-info">
                             <p className="contact-title">Email</p>
-                            <a href="mailto:omtestmail@gmail.com" className="contact-link">omtestmail@gmail.com</a>
+                            <a href="mailto:soniyadevikar6@gmail.com" className="contact-link">soniyadevikar6@gmail.com</a>
                         </div>
                     </li>
-                    <li className="contact-item">
+                    {/* <li className="contact-item">
                         <div className="icon-box"><IoPhonePortraitOutline /></div>
                         <div className="contact-info">
                             <p className="contact-title">Phone</p>
                             <a href="tel:+91935960743" className="contact-link">+91 935960743</a>
                         </div>
-                    </li>
+                    </li> */}
                     <li className="contact-item">
                         <div className="icon-box"><IoCalendarOutline /></div>
                         <div className="contact-info">
@@ -73,9 +73,21 @@ const Sidebar = () => {
                 </ul>
                 <div className="separator"></div>
                 <ul className="social-list">
-                    <li className="social-item"><a href="#" className="social-link"><IoLogoFacebook /></a></li>
-                    <li className="social-item"><a href="#" className="social-link"><IoLogoTwitter /></a></li>
-                    <li className="social-item"><a href="#" className="social-link"><IoLogoInstagram /></a></li>
+                    <li className="social-item">
+                        <a href="https://www.linkedin.com/in/soniya-devikar-5b42911b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+                            className="social-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <IoLogoLinkedin />
+                        </a>
+                    </li>
+                    <li className="social-item">
+                        <a href="https://github.com/soniyadevikar"
+                            className="social-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <IoLogoGithub /></a>
+                    </li>
                 </ul>
             </div>
         </aside>
