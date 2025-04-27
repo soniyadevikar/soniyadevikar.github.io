@@ -1,4 +1,3 @@
-// src/components/Contact.jsx
 import { useState } from 'react';
 import { IoMailOutline } from 'react-icons/io5';
 
@@ -18,11 +17,17 @@ const Contact = () => {
         e.preventDefault();
         setSending(true);
 
+        const modifiedMessage = `${formData.message}\n\n---\nThis message is for Soniya Devikar.`;
+
         try {
-            const response = await fetch('http://localhost:5000/send-email', {
+            const response = await fetch('https://contact-api-yunk.onrender.com/send-email', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData),
+                body: JSON.stringify({
+                    name: formData.name,
+                    email: formData.email,
+                    message: modifiedMessage,
+                }),
             });
 
             if (response.ok) {
