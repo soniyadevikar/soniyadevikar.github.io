@@ -785,6 +785,18 @@ main {
     margin-bottom: 10px;
 }
 
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
 .form-title {
     margin-bottom: 20px;
 }
