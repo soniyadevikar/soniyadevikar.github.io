@@ -18,7 +18,7 @@ const Sidebar = () => {
                     <br></br>
                     <p className='download-resume'>
                         <a
-                            href="https://www.researchgate.net/publication/365172178_A_Comparative_Analysis_of_Various_Techniques_of_Data_Leakage_Detection_in_Different_Domains"
+                            href="https://drive.google.com/file/d/1JKQwTXQMEfDcY01v_jJRPLAbq7DtQniT/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
@@ -74,7 +74,7 @@ const Sidebar = () => {
                 <div className="separator"></div>
                 <ul className="social-list">
                     <li className="social-item">
-                        <a href="https://www.linkedin.com/in/soniya-devikar-5b42911b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+                        <a href="https://www.linkedin.com/in/soniya-devikar-5b42911b2 "
                             className="social-link"
                             target="_blank"
                             rel="noopener noreferrer">

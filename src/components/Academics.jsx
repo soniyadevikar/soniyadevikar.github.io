@@ -49,7 +49,16 @@ const Academics = () => {
                     <h3 className="h3">Achievements</h3>
                 </div>
                 <ol className="timeline-list">
-
+                    <li className="timeline-item">
+                        <h4 className="h4 timeline-item-title">
+                            Spot Award — Société Générale
+                        </h4>
+                        <span>2025</span>
+                        <p className="timeline-text">
+                            Spot Award at Société Générale for outstanding commitment and delivery across backend development, with recognition for proactive upskilling and ownership.
+                        </p>
+                    </li>
+                    
                     <li className="timeline-item">
                         <h4 className="h4 timeline-item-title">
                             Research Paper Published — Springer & ResearchGate
