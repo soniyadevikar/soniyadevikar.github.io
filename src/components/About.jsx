@@ -9,7 +9,7 @@ const About = () => {
 
             <section className="about-text">
                 <p>
-                    Software Engineer with nearly 3 years of experience in building scalable, full-stack web applications with a strong focus on frontend
+                    Software Engineer with over 3 years of experience in building scalable, full-stack web applications with a strong focus on frontend
                     development using React and backend development with Flask and FastAPI. Proficient in designing modular and reusable components,
                     integrating RESTful APIs, and deploying solutions on cloud infrastructure.
                 </p>

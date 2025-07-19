@@ -1,6 +1,6 @@
 // src/components/Sidebar.jsx
 import { useState } from 'react';
-import avatar from '../assets/images/my-image.jpg';
+import avatar from '../assets/images/profile_img.jpg';
 import { IoMailOutline, IoPhonePortraitOutline, IoCalendarOutline, IoLocationOutline, IoLogoLinkedin, IoLogoGithub, IoChevronDown } from 'react-icons/io5';
 
 const Sidebar = () => {
