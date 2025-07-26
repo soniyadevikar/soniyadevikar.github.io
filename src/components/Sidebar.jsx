@@ -18,7 +18,7 @@ const Sidebar = () => {
                     <br></br>
                     <p className='download-resume'>
                         <a
-                            href="https://drive.google.com/file/d/19HMvqgS3ra0mdC7vQAwTGjFZK9ckV52H/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1QDjBjet37Yg0n049iVmNKorU2a72JrWg/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
