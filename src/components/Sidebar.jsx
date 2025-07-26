@@ -18,7 +18,7 @@ const Sidebar = () => {
                     <br></br>
                     <p className='download-resume'>
                         <a
-                            href="https://raw.githubusercontent.com/soniyadevikar/soniyadevikar.github.io/main/SoniyaDevikar_Resume.pdf"
+                            href="https://soniyadevikar.github.io/SoniyaDevikar_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
