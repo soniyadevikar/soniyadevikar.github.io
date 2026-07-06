@@ -9,9 +9,10 @@ const About = () => {
 
             <section className="about-text">
                 <p>
-                    Software Engineer with over 3 years of experience in building scalable, full-stack web applications with a strong focus on frontend
-                    development using React and backend development with Flask and FastAPI. Proficient in designing modular and reusable components,
-                    integrating RESTful APIs, and deploying solutions on cloud infrastructure.
+                    Software Engineer with 4+ years of experience building scalable enterprise applications in financial services. Expertise in
+                    Python, Java, JavaScript, React.js, Angular, Flask, and Spring Boot for developing RESTful APIs, microservices, and
+                    responsive web applications. Proficient in full-stack development across frontend, backend, and database technologies
+                    including PostgreSQL, MySQL, Oracle, and cloud technologies including Docker, Kubernetes, Jenkins, and AWS. 
                 </p>
                 <p>
                     Adept at working in Agile environments, driving UI/UX enhancements, and contributing to high-impact enterprise applications.
@@ -35,12 +36,11 @@ const About = () => {
                         </h4>
                         <span>June 2022 — Present</span>
                         <p className="timeline-text">
-                            Developed scalable and user-friendly web applications using React.js and Angular, focusing on performance, responsiveness, and seamless end-to-end integration.<br />
-                            Independently led UI/UX design efforts, translating complex requirements into intuitive layouts and user experiences.<br />
-                            Built reusable front-end components including dashboards, data visualizations, health check workflows, and dynamic tables with full CRUD functionality.<br />
-                            Engineered robust RESTful APIs using Python (Flask), integrating with databases to deliver reliable and efficient backend support for frontend features.<br />
-                            Streamlined development and deployment workflows by implementing CI/CD pipelines with Jenkins, improving build automation and release efficiency.<br />
-                            Collaborated in Agile cross-functional teams, contributing across the stack to ensure timely delivery of high-quality, maintainable solutions.
+                            Developed and maintained scalable full-stack web applications using React.js, Angular, Redux, Python (Flask), Java (Spring Boot), and Material-UI, delivering high-performance dashboards and reporting solutions for business-critical financial systems.<br />
+                            Designed, developed, and secured RESTful APIs and backend services using Python (Flask) and Java (Spring Boot), enabling seamless frontend-backend communication with 99.9% uptime and average response times under 200ms.<br />
+                            Implemented enterprise-grade business logic and data validation in backend services, integrating with PostgreSQL and Oracle databases to support reliable, mission-critical financial workflows.<br />
+                            Built a unified network management and automation platform using Python, Flask, Celery, Netmiko, Paramiko, and React.js, automating device health checks and incident workflows, resulting in 0.5 FTE cost savings.<br />
+                            Improved application quality and release efficiency by increasing unit and integration test coverage to 85%, implementing CI/CD pipelines with Jenkins, and contributing to Agile ceremonies including sprint planning, daily stand-ups, and retrospectives.
                         </p>
                     </li>
 
